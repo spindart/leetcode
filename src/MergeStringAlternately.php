@@ -1,6 +1,6 @@
 <?php
 
-namespace App\LeetCode\Php;
+namespace App\LeetCode;
 
 class MergeStringAlternately
 {
