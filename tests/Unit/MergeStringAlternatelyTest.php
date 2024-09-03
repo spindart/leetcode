@@ -16,9 +16,12 @@ class MergeStringAlternatelyTest extends TestCase
     /** 
      * @dataProvider cases
      */
-    public function testMergeStringAlternately($expected, $case)
+    public function testMergeStringAlternately($expected, $word)
     {
-        $actual = $this->mergeStringAlternately->mergeAlternately($case[0], $case[1]);
+
+        $word1 = $word[0];
+        $word2 = $word[1];
+        $actual = $this->mergeStringAlternately->mergeAlternately($word1, $word2);
         self::assertSame($expected, $actual);
     }
 
