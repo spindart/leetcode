@@ -10,7 +10,7 @@ class MergeStringAlternately
      * @param string|array $word2
      * @return string|array
      */
-    function mergeAlternately($word1, $word2)
+    function mergeAlternately($word1, $word2): string|array
     {
         $output = '';
         $i = 0;

@@ -10,7 +10,7 @@ class GreatestCommonDivisorOfStrings
      * @param string|array $str2
      * @return string|array
      */
-    function gcdOfStrings($str1, $str2)
+    function gcdOfStrings($str1, $str2): string|array
     {
         if ($str1 . $str2 !== $str2 . $str1) return '';
 
