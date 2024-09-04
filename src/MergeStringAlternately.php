@@ -21,7 +21,6 @@ class MergeStringAlternately
             if (isset($word2[$i])) {
                 $output .= $word2[$i];
             }
-
             $i++;
         }
         return $output;
