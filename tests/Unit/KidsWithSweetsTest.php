@@ -37,7 +37,6 @@ class KidsWithSweetsTest extends TestCase
         $extraCandies2 = 1;
         $extraCandies3 = 10;
 
-
         return [
             'Case 1' => [$case1ValueExpect, $candies1, $extraCandies1],
             'Case 2' => [$case2ValueExpect, $candies2, $extraCandies2],
