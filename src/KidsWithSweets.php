@@ -4,7 +4,6 @@ namespace App\LeetCode;
 
 class KidsWithSweets
 {
-
     /**
      * @param int[] $candies
      * @param int $extraCandies
