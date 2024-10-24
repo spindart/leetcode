@@ -1,2 +1,2 @@
 # leetcode
-Programming Skills
+Leetcode solutions
