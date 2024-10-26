@@ -11,20 +11,9 @@ class ReverseWordsInString
      */
     function reverseWords($s)
     {
-        $words = explode(" ", $s);
-        $newWord = [];
-        for ($i = 0; $i < count($words); $i++) {
-            if ($words[$i] === "") {
-                continue;
-            }
+        $arr = array_diff(explode(' ', trim($s)), ['']);
+        $arr = array_reverse($arr);
 
-            $newWord[] = preg_replace('/\s+/', ' ', $words[$i]);
-        }
-
-        $reverse = array_reverse($newWord);
-
-        $s = implode(" ", $reverse);
-
-        return $s;
+        return implode(' ', $arr);
     }
 }
