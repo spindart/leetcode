@@ -1,11 +1,11 @@
 <?php
 
-namespace App\LeetCode;
-
 /**
  * 1768. Merge Strings Alternately
  * https://leetcode.com/problems/merge-strings-alternately/
  */
+
+namespace App\LeetCode;
 
 class MergeStringAlternately
 {
