@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * 1. Two Sum
+ * https://leetcode.com/problems/two-sum/
+ */
+
+
 namespace App\LeetCode;
 
 class TwoSum
@@ -7,7 +13,7 @@ class TwoSum
 
     /**
      * @param array $nums
-     * @param array $target
+     * @param int $target
      * @return array
      */
     function twoSum($nums, $target)
