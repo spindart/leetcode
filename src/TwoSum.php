@@ -5,7 +5,6 @@
  * https://leetcode.com/problems/two-sum/
  */
 
-
 namespace App\LeetCode;
 
 class TwoSum
