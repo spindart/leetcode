@@ -1,4 +1,5 @@
 # leetcode
 Leetcode solutions
 
-Program skills 
+- Program skills
+- SQL
