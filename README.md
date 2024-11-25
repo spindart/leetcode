@@ -1,4 +1,4 @@
-# leetcode
+# Leetcode
 
 www.leetcode.com
 
